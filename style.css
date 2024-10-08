@@ -148,3 +148,43 @@ header{
 .text-contend-book-about p a:hover{
     opacity: 0.5;
 }
+.image-section{
+    width: 100%;
+    min-height: 50vh;
+    max-height: auto;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+}
+.image-section div{
+    width: 45%;
+    display: flex;
+    justify-content:flex-start;
+    align-items: flex-start;
+    background-color: red;  
+    overflow: hidden;
+}
+.image-section div img{
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+}
+.medium-frame{
+    height: 70% !important; 
+}
+.small-frame{
+    height: 50%;
+}
+.image-section-footer{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image-section-footer img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
