@@ -2,6 +2,7 @@
     --background:#f5ecd9 ;
     --gold:#b4a87d;
     --off-white:#fffcf5;
+    --grey:#8f8f8f;
 }
 *{
     padding: 0;
@@ -80,4 +81,70 @@ header{
 .section-break{
     width: 100%;
     height: 20px;
+}
+
+.condent-section{
+    width: 100%;
+    min-height: 70vh;
+    max-height: auto;
+   
+}
+.text-contend{
+    width: 100%;
+    min-height: 10vh;
+    max-height: auto;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.text-contend-book-address{
+    width: 50%;
+    min-height: 10vh;
+    max-height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+}
+.text-contend-book-address h1{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: var(--gold);
+    font-size: 15px;
+    font-family: Volkhov;
+    font-weight: 400;
+}
+.text-contend-book-address h2{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: var(--grey);
+    font-size: 12px;
+    font-family: Volkhov;
+    font-weight: 400;
+}
+.text-contend-book-about{
+    width: 50%;
+    min-height: 50%;
+    max-height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+}
+.text-contend-book-about p{
+    font-size: 12px;
+    font-family: Volkhov;
+    font-weight: 400;
+    color: var(--gold);
+    text-align: left;
+}
+.text-contend-book-about p a{
+    color: #898062;
+    text-decoration: underline;
+    margin-left: 3px;
+    transition: all 2s ease;
+}
+.text-contend-book-about p a:hover{
+    opacity: 0.5;
 }
